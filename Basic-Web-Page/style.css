@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 2rem 4rem;
+}
+
+#h1 {
+  text-align: center;
+  font-family: cursive;
+  color: hotpink;
+}
+
+#nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+
+  font-size: 20px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: red;
+}
+
+#nav a:hover {
+  transform: scale(1.2);
+  color: magenta;
+}
+
+#p1 {
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.img {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.img img {
+  margin: 0.5rem;
+  border-radius: 20px;
+  transition: transform 1s;
+}
+
+.img img:hover {
+  transform: scale(1.2);
+  border: 5px solid red;
+  box-shadow: 4px 5px 5px red;
+}
